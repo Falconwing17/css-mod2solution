@@ -1,0 +1,61 @@
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	text-align: center;
+}
+
+section {
+	background-color: grey;
+	padding: 20px;
+	border: 2px solid black;
+	position: relative;
+	margin: 20px;
+	display: inline-block;
+
+}
+
+.SectionTitle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 7px 30px 7px 30px;
+	background-color: grey;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	font-weight: bold;
+}
+
+#Chicken {
+	background-color: #e9967a;
+}
+
+#Beef {
+	background-color: #dc143c;
+	color: #ffffff;
+}
+
+#Sushi {
+	background-color: #deb887;
+}
+
+@media (min-width: 992px) {
+	section {
+		width: 25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	section {
+		width: 40%;
+	}
+	#SushiSection {
+		width: 85%;
+	}
+}
